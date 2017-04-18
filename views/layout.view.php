@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>LeagueHub</title>
+  <title>Hidro</title>
   <!-- TODO: Add to main css ? -->
   <!-- <link rel="stylesheet" type="text/css" href="assets/vendors/materialize.css" /> -->
   <link rel="stylesheet" type="text/css" href="assets/styles/main.css" />

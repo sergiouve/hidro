@@ -2,7 +2,7 @@
 
   <div class="row section-title">
     <div class="heading">
-      <h1 class="section-title__title">LeagueHub Web Styleguide</h1>
+      <h1 class="section-title__title">Hidro Web Styleguide</h1>
     </div>
   </div>
 
