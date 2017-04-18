@@ -13,7 +13,7 @@ Hidro is a dead simple prototying/design tool.
 Use it to quickly create a styleguide, views and components on a fully navigable web.
 
 #### What is it not?
-Hidro is not supposed to be used to power a production ready webapp, it is designed to just prototype/design it.
+Hidro is not supposed to be used to power a *real life* production webapp, it is designed to just prototype/design it.
 
 <a name="installation"></a>
 ## Installation
