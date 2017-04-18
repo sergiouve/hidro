@@ -1,5 +1,7 @@
 # hidro
 
+*Dead simple web prototyping framework*
+
 - [Installation](#installation)
 - [Usage](#usage)
   + [Startup](#startup)
