@@ -3,7 +3,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
   + [Startup](#startup)
-  + [Sructure](#sructure)
+  + [Structure](#structure)
   + [Workflow](#workflow)
 
 ### What is it?
