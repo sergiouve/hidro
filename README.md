@@ -1,6 +1,10 @@
 # hidro
 
-Hidro is a dead simple prototying tool. Use it to quickly create a styleguide, views and components on a fully navigable web.
+### What is it?
+Hidro is a dead simple prototying/design tool. Use it to quickly create a styleguide, views and components on a fully navigable web.
+
+### What is it not?
+Hidro is not supposed to be used to power a production ready webapp, it is designed to just prototype/design it.
 
 ## Installation
 
@@ -14,7 +18,17 @@ Hidro is a dead simple prototying tool. Use it to quickly create a styleguide, v
   yo hidro
 ```
 
-### Usage
+## Usage
+
+### Startup
+
+```bash
+gulp
+```
+
+This will start compiling assets and boot up a server on **localhost:3000**
+
+### Structure
 
 Hidro uses the following file structure
 ```
@@ -65,4 +79,8 @@ package.json
 README.md
 ```
 
+### Workflow
 
+1. Views
+
+2. SCSS
