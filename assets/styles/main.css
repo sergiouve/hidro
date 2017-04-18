@@ -1,10 +1,384 @@
-html,
-body {
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i");
+.mt5 {
+  margin-top: 5px !important;
+}
+
+.mr5 {
+  margin-right: 5px !important;
+}
+
+.mb5 {
+  margin-bottom: 5px !important;
+}
+
+.ml5 {
+  margin-left: 5px !important;
+}
+
+.mt10 {
+  margin-top: 10px !important;
+}
+
+.mr10 {
+  margin-right: 10px !important;
+}
+
+.mb10 {
+  margin-bottom: 10px !important;
+}
+
+.ml10 {
+  margin-left: 10px !important;
+}
+
+.mt15 {
+  margin-top: 15px !important;
+}
+
+.mr15 {
+  margin-right: 15px !important;
+}
+
+.mb15 {
+  margin-bottom: 15px !important;
+}
+
+.ml15 {
+  margin-left: 15px !important;
+}
+
+.mt30 {
+  margin-top: 30px !important;
+}
+
+.mr30 {
+  margin-right: 30px !important;
+}
+
+.mb30 {
+  margin-bottom: 30px !important;
+}
+
+.ml30 {
+  margin-left: 30px !important;
+}
+
+.mt50 {
+  margin-top: 50px !important;
+}
+
+.mr50 {
+  margin-right: 50px !important;
+}
+
+.mb50 {
+  margin-bottom: 50px !important;
+}
+
+.ml50 {
+  margin-left: 50px !important;
+}
+
+.mt100 {
+  margin-top: 100px !important;
+}
+
+.mr100 {
+  margin-right: 100px !important;
+}
+
+.mb100 {
+  margin-bottom: 100px !important;
+}
+
+.ml100 {
+  margin-left: 100px !important;
+}
+
+.pt5 {
+  padding-top: 5px !important;
+}
+
+.pr5 {
+  padding-right: 5px !important;
+}
+
+.pb5 {
+  padding-bottom: 5px !important;
+}
+
+.pl5 {
+  padding-left: 5px !important;
+}
+
+.pt10 {
+  padding-top: 10px !important;
+}
+
+.pr10 {
+  padding-right: 10px !important;
+}
+
+.pb10 {
+  padding-bottom: 10px !important;
+}
+
+.pl10 {
+  padding-left: 10px !important;
+}
+
+.pt15 {
+  padding-top: 15px !important;
+}
+
+.pr15 {
+  padding-right: 15px !important;
+}
+
+.pb15 {
+  padding-bottom: 15px !important;
+}
+
+.pl15 {
+  padding-left: 15px !important;
+}
+
+.hide-mobile {
+  display: none !important;
+}
+
+@media (min-width: 768px) {
+  .hide-mobile {
+    display: inherit !important;
+  }
+}
+
+.hide-desktop {
+  display: inherit !important;
+}
+
+@media (min-width: 768px) {
+  .hide-desktop {
+    display: none !important;
+  }
+}
+
+.right {
+  float: right !important;
+}
+
+.left {
+  float: left !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
 }
 
+h1,
+.h1 {
+  font-size: 44px;
+  font-size: 4.4rem;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+  -webkit-transition: all .15s ease;
+  -moz-transition: all .15s ease;
+  transition: all .15s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+strong {
+  font-weight: 700 !important;
+  font-family: "Nunito", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  background-color: #FAFAFA;
+}
+
+.page {
+  margin: auto;
+  margin-top: 60px;
+  max-width: 1400px;
+  background-color: #FFFFFF;
+}
+
 .header {
+  position: fixed;
+  top: 0;
+  width: 100%;
   height: 60px;
-  border-bottom: 1px solid #000000;
+  line-height: 57px;
+  box-shadow: 0px 7px 11px -3px rgba(0, 0, 0, 0.1);
+  z-index: 99;
+}
+
+.header--in {
+  background-color: #E9724C;
+  color: #FFFFFF;
+}
+
+.header--out {
+  background-color: #FFFFFF;
+  border-bottom: 2px solid #E9724C;
+}
+
+.header__wrapper {
+  margin: auto;
+  max-width: 1400px;
+  padding: 0px 20px;
+}
+
+.heading {
+  border-bottom: 1px solid #686963;
+  padding: 20px 10px;
+  margin: 10px 0px 20px 0px;
+}
+
+.button {
+  display: inline-block;
+  background-color: #E9724C;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  text-decoration: none;
+  padding: 0px 20px;
+  border-radius: 2px;
+  color: #FFFFFF;
+  -webkit-transition: all .15s ease;
+  -moz-transition: all .15s ease;
+  transition: all .15s ease;
+  border-width: 0;
+  font-family: "Nunito", sans-serif;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  background-color: #e66035;
+  text-decoration: none !important;
+}
+
+.box {
+  background-color: #FFFFFF;
+  border-radius: 1px;
+  height: 300px;
+  width: 500px;
+  border-left: 2px #E9724C solid;
+  padding: 20px;
+}
+
+.login__form {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 999;
+}
+
+.login__form .login__form-box {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 150px;
+}
+
+.styleguide__container .section-title__title {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.styleguide__container .section-colors__color-item {
+  display: inline-block;
+  margin-left: 5px;
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.styleguide__container .section-colors__color-item.main {
+  background-color: #E9724C;
+}
+
+.styleguide__container .section-colors__color-item.white {
+  background-color: #FAFAFA;
+}
+
+.styleguide__container .section-colors__color-item.blue-light {
+  background-color: #E3F2FD;
+}
+
+.styleguide__container .section-colors__color-item.grey {
+  background-color: #686963;
+}
+
+.styleguide__container .section-colors__color-item.blue-dark {
+  background-color: #8AA29E;
+}
+
+.welcome__container {
+  position: relative;
+  min-height: 350px;
+  width: 100%;
+  background-image: url("../images/night-game.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-transition: all .33s ease;
+  -moz-transition: all .33s ease;
+  transition: all .33s ease;
+}
+
+.welcome__container .welcome__container-bg {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.welcome__container .welcome__text-wrapper {
+  position: relative;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  padding-top: 70px;
+  font-size: 25px;
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: #FFFFFF;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+  z-index: 2;
+}
+
+.welcome__container .welcome__buttons {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+}
+
+.welcome__container .welcome__buttons .button:not(:last-child) {
+  margin-right: 30px;
 }

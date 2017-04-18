@@ -1,11 +1,21 @@
+//VENDORS
+// @import './../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
 // COMMON
-@import './common/base';
-@import './common/helpers';
-@import './common/variables';
+@import "./common/variables";
+@import "./common/mixins";
+@import "./common/helpers";
+@import "./common/typography";
+@import "./common/base";
 
 // COMPONENTS
-@import './components/header';
-@import './components/footer';
+@import "./components/header";
+@import "./components/footer";
+@import "./components/heading";
+@import "./components/buttons";
+@import "./components/boxes";
+@import "./components/login-form";
 
 //PAGES
-@import './pages/login';
+@import "./pages/styleguide";
+@import "./pages/welcome";
