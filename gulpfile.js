@@ -1,5 +1,6 @@
 const gulp          = require('gulp');
 const gutil         = require('gulp-util');
+const shell         = require('gulp-shell');
 const sass          = require('gulp-sass');
 const autoprefixer  = require('gulp-autoprefixer');
 const imagemin      = require('gulp-imagemin');
@@ -18,17 +19,9 @@ gulp.task('sass', function() {
     .pipe(gulp.dest('./assets/styles'));
 });
 
-gulp.task('materialize', function() {
-  gulp.src('./src/vendors/materialize/sass/materialize.scss')
-    .pipe(
-      sass({ outputStyle: 'compressed' })
-      .on('error', gutil.log))
-    .pipe(autoprefixer({
-      browsers: autoprefixBrowsers,
-      cascade: false
-    }))
-    .pipe(gulp.dest('./assets/vendors'));
-});
+gulp.task('serve', shell.task([
+  'php -S localhost:3000'
+]));
 
 gulp.task('watch', function() {
   gulp.watch('./src/scss/**/*.scss', ['sass']);
@@ -40,4 +33,4 @@ gulp.task('images', () =>
     .pipe(gulp.dest('assets/images'))
 );
 
-gulp.task('default', ['sass', 'images', 'watch']);
+gulp.task('default', ['sass', 'images', 'serve', 'watch']);
