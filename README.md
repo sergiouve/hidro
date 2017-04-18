@@ -1,25 +1,34 @@
 # hidro
 
+- [Installation](#installation)
+- [Usage](#usage)
+  + [Startup](#startup)
+  + [Sructure](#sructure)
+  + [Workflow](#workflow)
+
 ### What is it?
 Hidro is a dead simple prototying/design tool. Use it to quickly create a styleguide, views and components on a fully navigable web.
 
 ### What is it not?
 Hidro is not supposed to be used to power a production ready webapp, it is designed to just prototype/design it.
 
+<a name="installation"></a>
 ## Installation
 
 ### Using git
 ```bash
-  git clone https://github.com/sergiouve/hidro.git my_prototype
+git clone https://github.com/sergiouve/hidro.git my_prototype
 ```
 
 ### Using yeoman
 ```bash
-  yo hidro
+yo hidro
 ```
 
+<a name="usage"></a>
 ## Usage
 
+<a name="startup"></a>
 ### Startup
 
 ```bash
@@ -28,6 +37,7 @@ gulp
 
 This will start compiling assets and boot up a server on **localhost:3000**
 
+<a name="structure"></a>
 ### Structure
 
 Hidro uses the following file structure
@@ -79,6 +89,7 @@ package.json
 README.md
 ```
 
+<a name="workflow"></a>
 ### Workflow
 
 1. Views
