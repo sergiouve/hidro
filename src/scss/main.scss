@@ -1,0 +1,11 @@
+// COMMON
+@import './common/base';
+@import './common/helpers';
+@import './common/variables';
+
+// COMPONENTS
+@import './components/header';
+@import './components/footer';
+
+//PAGES
+@import './pages/login';
