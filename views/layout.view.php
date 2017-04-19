@@ -3,8 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <title>Hidro</title>
-  <!-- TODO: Add to main css ? -->
-  <!-- <link rel="stylesheet" type="text/css" href="assets/vendors/materialize.css" /> -->
   <link rel="stylesheet" type="text/css" href="assets/styles/main.css" />
 </head>
   <body>
@@ -15,7 +13,7 @@
 
     <main>
       <div class="page">
-        <div class="main container-fluid">
+        <div class="main">
 
           <?php include('./views/pages/' . $view . '.view.php'); ?>
 
