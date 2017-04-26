@@ -1,6 +1,6 @@
 {
   "name": "hidro",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Dead simple web prototyping framework for developers",
   "main": "gulpfile.js",
   "dependencies": {
