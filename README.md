@@ -1,6 +1,6 @@
 # hidro
 
-*Dead simple web prototyping framework*
+*Dead simple web prototyping framework for developers*
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -9,7 +9,7 @@
   + [Workflow](#workflow)
 
 #### What is it?
-Hidro is a dead simple prototying/design tool.  
+Hidro is a dead simple prototying/design tool for developers.
 Use **HTML and CSS** to quickly create a styleguide, views and components on a fully navigable web.
 
 #### What is it not?
