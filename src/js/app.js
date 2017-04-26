@@ -1,7 +1,7 @@
 $(document).ready(function() {
-  var sayHello = function() {
+  var init = function() {
     console.log('hey there!');
   };
 
-  sayHello();
+  init();
 });

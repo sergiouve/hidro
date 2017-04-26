@@ -3,6 +3,7 @@ const gutil         = require('gulp-util');
 const shell         = require('gulp-shell');
 const sass          = require('gulp-sass');
 const browserify    = require('browserify');
+const source        = require('vinyl-source-stream');
 const autoprefixer  = require('gulp-autoprefixer');
 const imagemin      = require('gulp-imagemin');
 
@@ -41,4 +42,4 @@ gulp.task('images', () =>
     .pipe(gulp.dest('assets/images'))
 );
 
-gulp.task('default', ['sass', 'images', 'serve', 'watch']);
+gulp.task('default', ['sass', 'images', 'browserify', 'serve', 'watch']);
