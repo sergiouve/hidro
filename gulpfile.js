@@ -2,6 +2,7 @@ const gulp          = require('gulp');
 const gutil         = require('gulp-util');
 const shell         = require('gulp-shell');
 const sass          = require('gulp-sass');
+const browserify    = require('browserify');
 const autoprefixer  = require('gulp-autoprefixer');
 const imagemin      = require('gulp-imagemin');
 
@@ -17,6 +18,13 @@ gulp.task('sass', function() {
       cascade: false
     }))
     .pipe(gulp.dest('./assets/styles'));
+});
+
+gulp.task('browserify', function() {
+  return browserify('./src/js/app.js')
+    .bundle()
+    .pipe(source('app.js'))
+    .pipe(gulp.dest('./assets/js/'));
 });
 
 gulp.task('serve', shell.task([
