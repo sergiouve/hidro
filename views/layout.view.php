@@ -24,7 +24,7 @@
     <?php include('./views/layouts/footer.view.php'); ?>
 
     <script src="node_modules/jquery/dist/jquery.min.js" type="text/javascript"></script>
-    <script src="assets/scripts/prototype.js" type="text/javascript"></script>
+    <script src="assets/scripts/app.js" type="text/javascript"></script>
 
   </body>
 </html>
