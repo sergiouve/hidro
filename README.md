@@ -96,8 +96,8 @@ README.md
 <a name="workflow"></a>
 ### Workflow
 
-1. Views
-View files should be saved in the views/ folder with a *.view.php* extension.
+1. Views  
+Views files should be saved in the **views/** folder with a **.view.php** extension.
 
 ```
 views/
@@ -112,18 +112,19 @@ views/
 ```
 
 You can link to other pages or include components inside other elements via
-the *$routes* and *components* arrays. Hidro will recognize all your *.view.php* files
-from the views folder and store them in the $routes array.
+the **$routes** and **$components** arrays. Hidro will recognize all your **.view.php** files
+from the views/pages and views/components folders and store them in the **$routes** and **$componetns**
+arrays respectively (the key being the file name *without the .view.php extension).
 
-Examples
+**Examples**
 
 Link to another pages
-```php
+```html
 Visit our <a href="<?= $routes['products']; ?>">Products</a> page for more!
 ```
 
 Include a component
-```php
+```html
 ...
 <div class="products__container">
   <?php include($components['header']); ?>
