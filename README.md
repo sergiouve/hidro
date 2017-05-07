@@ -136,7 +136,7 @@ Include a component
 ```
 
 2. SCSS  
-
+```
 ├── scss/
 │   ├── common/
 │   │   ├── _base.scss
@@ -150,5 +150,4 @@ Include a component
 │   │   ├── _styleguide.scss
 │   │   └── _welcome.scss
 │   └── main.scss
-
-3. JS  
+```
