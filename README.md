@@ -99,6 +99,7 @@ README.md
 1. Views
 View files should be saved in the views/ folder with a *.view.php* extension.
 
+```
 views/
 ├── components/ -> Small UX components
 ├── layouts/ -> Bigger structures that will repeat all over the project
@@ -108,9 +109,11 @@ views/
 │   ├── styleguide.view.php
 │   └── welcome.view.php
 └── layout.view.php -> The base webpage from where the rest of the views and resources are loaded
+```
 
-You can link to other pages or include components inside other elements via the *$routes* array. Hidro will
-recognize all your *.view.php* files from the views folder and store them in the $routes array.
+You can link to other pages or include components inside other elements via
+the *$routes* and *components* arrays. Hidro will recognize all your *.view.php* files
+from the views folder and store them in the $routes array.
 
 Examples
 
@@ -123,7 +126,10 @@ Include a component
 ```php
 ...
 <div class="products__container">
-  <?php include()
+  <?php include($components['header']); ?>
+  ...
+</div>
+...
 ```
 
 2. SCSS
