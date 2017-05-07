@@ -133,4 +133,20 @@ Include a component
 ...
 ```
 
-2. SCSS
+2. SCSS  
+
+├── scss/
+│   ├── common/
+│   │   ├── _base.scss
+│   │   ├── _helpers.scss
+│   │   ├── _mixins.scss
+│   │   ├── _typography.scss
+│   │   └── _variables.scss
+│   ├── components/
+│   │   └── _example-component.scss
+│   ├── pages/
+│   │   ├── _styleguide.scss
+│   │   └── _welcome.scss
+│   └── main.scss
+
+3. JS  

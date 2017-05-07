@@ -1,4 +1,16 @@
 // COMMON/VARIABLES
 
+// MEDIA QUERIES
+$screen-xs-min: 0 !default;
+$screen-sm-max: 767px !default;
+$screen-sm-min: 768px !default;
+$screen-md-max: 991px !default;
+$screen-md-min: 992px !default;
+$screen-lg-max: 1199px !default;
+$screen-lg-min: 1200px !default;
+$screen-xl-max: 1399px !default;
+$screen-xl-min: 1400px !default;
+
+// COLORS
 $white: #FFFFFF;
 $black: #000000;

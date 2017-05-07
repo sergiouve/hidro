@@ -8,6 +8,12 @@ if ($development) {
   error_reporting(E_ALL);
 }
 
-$headerslessViews = array(
-  'styleguide',
-);
+$config = [
+  'project_name' => 'Hidro',
+  'repository' => 'https://github.com/sergiouve/hidro',
+  'author' => 'Sergio Uve',
+
+  'views' => [
+    'no_header' => []
+  ]
+];

@@ -7,7 +7,7 @@
 </head>
   <body>
 
-    <?php if (!in_array($view, $headerslessViews)): ?>
+    <?php if (!in_array($view, $config['views']['no_header'])): ?>
       <?php include('./views/layouts/header.view.php'); ?>
     <?php endif; ?>
 

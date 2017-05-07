@@ -1,1 +1,16 @@
 // COMMON/MIXINS
+
+// Fonts / Typography
+// ------------------------------
+@mixin font-size($size: 16) {
+  font-size: ($size) + px;
+  font-size: ($size / 10) + rem;
+}
+
+// Transitions / Animations
+// ------------------------------
+@mixin transition($property, $duration: 150ms) {
+  transition-property: $property;
+  transition-duration: $duration;
+  transition-timing-function: ease-in-out;
+}

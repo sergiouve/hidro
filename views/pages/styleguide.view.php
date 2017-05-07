@@ -2,22 +2,22 @@
 
   <div class="row section-title">
     <div class="heading">
-      <h1 class="section-title__title">Hidro Web Styleguide</h1>
+      <h1 class="section-title__title"><?= $config['project_name']; ?> Web Styleguide</h1>
     </div>
   </div>
 
-  <div class="row section-colors">
+  <div class="row section-components">
     <div class="heading">
-      <h2>Colors</h2>
+      <h2>Components</h2>
     </div>
 
-    <div class="section-colors__colors-wrapper">
-      <div class="section-colors__color-item main"></div>
-      <div class="section-colors__color-item white"></div>
-      <div class="section-colors__color-item blue-light"></div>
-      <div class="section-colors__color-item grey"></div>
-      <div class="section-colors__color-item blue-dark"></div>
-    </div>
+    <?php foreach ($components as $component): ?>
+
+      <div class="section-components__item">
+        <?php include($component); ?>
+      </div>
+
+    <?php endforeach; ?>
 
   </div>
 
@@ -47,7 +47,7 @@
     </div>
 
     <div class="mt10 mb15">
-      <a href="#" class="button">Button</a>
+      <button class="button">Button</button>
     </div>
   </div>
 
