@@ -1,4 +1,4 @@
-[![Hidro](/path/to/image)](path/to/linked/page)
+![Hidro](https://github.com/sergiouve/hidro/raw/master/assets/images/hidro.png)
 
 # hidro
 
