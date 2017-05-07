@@ -114,7 +114,7 @@ views/
 You can link to other pages or include components inside other elements via
 the **$routes** and **$components** arrays. Hidro will recognize all your **.view.php** files
 from the views/pages and views/components folders and store them in the **$routes** and **$components**
-arrays respectively (the key being the file name *without the .view.php extension).
+arrays respectively (the key being the file name without the .view.php extension).
 
 **Examples**
 
