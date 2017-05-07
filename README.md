@@ -1,3 +1,5 @@
+[![Hidro](/path/to/image)](path/to/linked/page)
+
 # hidro
 
 *Dead simple web prototyping framework for developers*

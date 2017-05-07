@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Hidro</title>
   <link rel="stylesheet" type="text/css" href="assets/styles/main.css" />
+  <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
 </head>
   <body>
 

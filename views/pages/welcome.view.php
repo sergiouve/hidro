@@ -24,6 +24,8 @@
 <div class="welcome__container">
   <div class="welcome__wrapper">
 
+    <img src="assets/images/hidro.png" alt="Hidro">
+
     <h1><span class="aqua-text">Hidro</span> is up and running</h1>
 
     <p>Delete this and start prototyping!</p>
